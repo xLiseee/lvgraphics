@@ -1,12 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Social from "../social/social";
-import { Leaf } from "../svg";
 
 // images
 import shape_1 from "@/assets/img/inner-about/hero/hero-2-shape-1.jpg";
 import shape_2 from "@/assets/img/inner-about/hero/hero-2-shape-2.jpg";
-import hero_img from '@/assets/img/inner-about/hero/Lise.png';
+import hero_img from '@/assets/img/inner-about/hero/ik.png';
 
 export default function AboutMeHero() {
   return (
