@@ -8,29 +8,31 @@ import blog_2 from "@/assets/img/home-05/blog/blog-2.jpg";
 import blog_3 from "@/assets/img/home-05/blog/blog-3.jpg";
 import blog_4 from "@/assets/img/home-05/blog/blog-4.jpg";
 // blog modern 
-import b_m_1 from "@/assets/img/inner-blog/blog-standard/blog-1.jpg";
-import b_m_2 from "@/assets/img/inner-blog/blog-standard/blog-2.jpg";
-import b_m_3 from "@/assets/img/inner-blog/blog-standard/blog-3.jpg";
-import b_m_4 from "@/assets/img/inner-blog/blog-standard/blog-4.jpg";
-import b_m_5 from "@/assets/img/inner-blog/blog-standard/blog-5.jpg";
-import b_m_6 from "@/assets/img/inner-blog/blog-standard/blog-6.jpg";
-import b_m_7 from "@/assets/img/inner-blog/blog-standard/blog-7.jpg";
 
 // avatar
-import avatar from "@/assets/img/inner-blog/blog-sidebar/avatar/avata-1.jpg";
+// reuse existing home-05 blog images for missing inner-blog assets
+import b_m_1 from "@/assets/img/home-05/blog/blog-1.jpg";
+import b_m_2 from "@/assets/img/home-05/blog/blog-2.jpg";
+import b_m_3 from "@/assets/img/home-05/blog/blog-3.jpg";
+import b_m_4 from "@/assets/img/home-05/blog/blog-4.jpg";
+import b_m_5 from "@/assets/img/home-05/blog/blog-1.jpg";
+import b_m_6 from "@/assets/img/home-05/blog/blog-2.jpg";
+import b_m_7 from "@/assets/img/home-05/blog/blog-3.jpg";
 
-// blog postbox img
-import blog_post_1 from '@/assets/img/inner-blog/blog-sidebar/sidebar-left-1.jpg';
-import blog_post_2 from '@/assets/img/inner-blog/blog-sidebar/sidebar-left-2.jpg';
-import blog_post_3 from '@/assets/img/inner-blog/blog-sidebar/sidebar-left-3.jpg';
-import blog_post_4 from '@/assets/img/inner-blog/blog-sidebar/sidebar-left-4.jpg';
+import avatar from "@/assets/img/home-05/blog/blog-1.jpg";
 
-// blog list images
-import blog_list_1 from '@/assets/img/inner-blog/blog-right-sidebar/blog-1.jpg';
-import blog_list_2 from '@/assets/img/inner-blog/blog-right-sidebar/blog-2.jpg';
-import blog_list_3 from '@/assets/img/inner-blog/blog-right-sidebar/blog-3.jpg';
-import blog_list_4 from '@/assets/img/inner-blog/blog-right-sidebar/blog-4.jpg';
-import blog_list_5 from '@/assets/img/inner-blog/blog-right-sidebar/blog-5.jpg';
+// blog postbox img - reuse home-05 blog images
+import blog_post_1 from '@/assets/img/home-05/blog/blog-1.jpg';
+import blog_post_2 from '@/assets/img/home-05/blog/blog-2.jpg';
+import blog_post_3 from '@/assets/img/home-05/blog/blog-3.jpg';
+import blog_post_4 from '@/assets/img/home-05/blog/blog-4.jpg';
+
+// blog list images - reuse home-05 blog images
+import blog_list_1 from '@/assets/img/home-05/blog/blog-1.jpg';
+import blog_list_2 from '@/assets/img/home-05/blog/blog-2.jpg';
+import blog_list_3 from '@/assets/img/home-05/blog/blog-3.jpg';
+import blog_list_4 from '@/assets/img/home-05/blog/blog-4.jpg';
+import blog_list_5 from '@/assets/img/home-05/blog/blog-1.jpg';
 
 
 
