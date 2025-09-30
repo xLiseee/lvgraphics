@@ -2,7 +2,6 @@
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
-import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { ScrollSmoother, ScrollTrigger, SplitText, } from '@/plugins';
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
@@ -20,19 +19,17 @@ import { hoverBtn } from "@/utils/hover-btn";
 import { footerTwoAnimation } from "@/utils/footer-anim";
 import {bounceAnimation, charAnimation, fadeAnimation, revelAnimationOne} from "@/utils/title-animation";
 import ProjectFour from "@/components/project/project-four";
-import {projectThreeAnimation} from "@/utils/project-anim";
 import {ctaAnimation} from "@/utils/cta-anim";
 import {textInvert} from "@/utils/text-invert";
 import FooterFour from "@/layouts/footers/footer-four";
 
 const HomeMain = () => {
-  useScrollSmooth();
+
 
     useGSAP(() => {
         const timer = setTimeout(() => {
             fadeAnimation();
             revelAnimationOne();
-            projectThreeAnimation();
             ctaAnimation();
             textInvert();
         }, 100);

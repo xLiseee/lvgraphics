@@ -1,7 +1,6 @@
 "use client";
 import { gsap } from "gsap";
 import React from "react";
-import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
@@ -18,7 +17,6 @@ import FooterFour from "@/layouts/footers/footer-four";
 import HeaderOne from "@/layouts/headers/header-one";
 
 const ContactMain = () => {
-  useScrollSmooth();
 
   useGSAP(() => {
     const timer = setTimeout(() => {

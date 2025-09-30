@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import { Hand } from "../svg";
-import shape from '@/assets/img/inner-about/about/shape-1.png';
 
 export default function AboutMeArea() {
   return (
@@ -11,7 +8,7 @@ export default function AboutMeArea() {
           <div className="col-xl-12">
             <div className="ab-about-content p-relative tp_fade_bottom">
               <span>
-                <Hand />
+          
                 Hi!
               </span>
               <p className="tp-dropcap">

@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import shape_1 from "@/assets/img/inner-about/hero/hero-2-shape-1.jpg";
-import shape_2 from "@/assets/img/inner-about/hero/hero-2-shape-2.jpg";
 import hero_img from '@/assets/img/inner-about/hero/ik.png';
 
 export default function AboutMeHero() {
@@ -32,18 +30,7 @@ export default function AboutMeHero() {
                 >
                   Get to know me
                 </h4>
-                <div className="ab-2-hero-shape-1">
-                  <Image
-                    src={shape_1}
-                    alt="shape"
-                  />
-                </div>
-                <div className="ab-2-hero-shape-2">
-                  <Image
-                    className="tp-zoom-in-out"
-                    src={shape_2}
-                    alt="shape"
-                  />
+            
                 </div>
               </div>
             </div>
@@ -64,6 +51,6 @@ export default function AboutMeHero() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }

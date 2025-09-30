@@ -2,7 +2,6 @@
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
-import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText, cursorAnimation } from "@/plugins";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
@@ -20,8 +19,6 @@ import HeaderOne from "@/layouts/headers/header-one";
 import FooterFour from "@/layouts/footers/footer-four";
 
 const PortfolioStandardMain = () => {
-  useScrollSmooth();
-
   useEffect(() => {
     document.body.classList.add("tp-magic-cursor");
     return () => {
