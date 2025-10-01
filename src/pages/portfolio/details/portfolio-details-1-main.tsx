@@ -27,7 +27,7 @@ import FooterFour from "@/layouts/footers/footer-four";
 const port_images = [port_d_1, port_d_2, port_d_3, port_d_4,];
 
 const PortfolioDetailsOneMain = () => {
-  
+  const [showSocial, setShowSocial] = React.useState(false);
 
   useGSAP(() => {
     const timer = setTimeout(() => {
