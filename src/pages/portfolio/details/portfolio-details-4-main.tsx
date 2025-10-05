@@ -19,9 +19,10 @@ import {charAnimation,titleAnimation} from "@/utils/title-animation";
 
 // images
 import port_d_1 from '@/assets/img/inner-project/portfolio-details/swyp.png';
+import port_d_2 from '@/assets/img/inner-project/portfolio-details/swyp2.png';
 import FooterFour from "@/layouts/footers/footer-four";
 
-const port_images = [port_d_1];
+const port_images = [port_d_1, port_d_2 ];
 
 const PortfolioDetailsOneMain = () => {
   const [showSocial, setShowSocial] = React.useState(false);
