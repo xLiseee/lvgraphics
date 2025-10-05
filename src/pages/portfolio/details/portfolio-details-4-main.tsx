@@ -18,12 +18,10 @@ import {charAnimation,titleAnimation} from "@/utils/title-animation";
 
 
 // images
-import port_d_1 from '@/assets/img/inner-project/portfolio-details/jrvisite.png';
-import port_d_2 from '@/assets/img/inner-project/portfolio-details/jrvisualsweb.png';
-import port_d_3 from '@/assets/img/inner-project/portfolio-details/jrlogo.png';
+import port_d_1 from '@/assets/img/inner-project/portfolio-details/swyp.png';
 import FooterFour from "@/layouts/footers/footer-four";
 
-const port_images = [port_d_1, port_d_2, port_d_3,];
+const port_images = [port_d_1];
 
 const PortfolioDetailsOneMain = () => {
   const [showSocial, setShowSocial] = React.useState(false);
@@ -64,17 +62,17 @@ const PortfolioDetailsOneMain = () => {
                            <div className="project-details-1-right p-relative">
                               <div className="project-details-1-title-box">
                                  <span className="project-details-1-subtitle"><i>04</i>Brand Design</span>
-                                 <h4 className="project-details-1-title">JR Visuals</h4>
-                                 <p>Creating different brand assets for JR Visuals</p>
+                                 <h4 className="project-details-1-title">Swyp</h4>
+                                 <p>Creating different brand assets for Swyp</p>
                               </div>
                               <div className="project-details-1-info-wrap">
                                  <div className="project-details-1-info">
                                     <span>Client</span>
-                                    <h4>JR Visuals</h4>
+                                    <h4>Swyp bv</h4>
                                  </div>
                                  <div className="project-details-1-info">
                                     <span>Date</span>
-                                    <h4>Februari {"2021"}</h4>
+                                    <h4>September {"2025"}</h4>
                                  </div>
                                  <div className="project-details-1-info">
                                     <span>Services</span>
@@ -82,7 +80,7 @@ const PortfolioDetailsOneMain = () => {
                                  </div>
                                  <div className="project-details-1-info">
                                     <span>Deliverables</span>
-                                    <h4>Website & Brand assets</h4>
+                                    <h4>Brand assets</h4>
                                  </div>
                               </div>
                            </div>

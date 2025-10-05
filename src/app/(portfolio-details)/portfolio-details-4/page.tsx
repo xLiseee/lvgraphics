@@ -4,7 +4,7 @@ import PortfolioDetailsFourMain from "@/pages/portfolio/details/portfolio-detail
 
 
 export const metadata: Metadata = {
-  title: "JR Visuals",
+  title: "Swyp",
 };
 
 const PortfolioDetailsFourPage = () => {

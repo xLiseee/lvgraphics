@@ -6,7 +6,7 @@ import Link from "next/link";
 // images
 import p_img_1 from "@/assets/img/home-05/project/reports.png";
 import p_img_2 from "@/assets/img/home-05/project/sjans.png";
-import p_img_3 from "@/assets/img/home-05/project/jrvisuals.png";
+import p_img_3 from "@/assets/img/home-05/project/swyp.png";
 import p_img_4 from "@/assets/img/home-05/project/hays.png";
 import p_img_5 from "@/assets/img/home-05/project/lille.png";
 import p_img_6 from "@/assets/img/home-05/project/red.png";
@@ -30,10 +30,10 @@ const project_data = [
   },
   {
     id: 3,
-    title: "JR Visuals",
+    title: "Swyp",
     category: "Branding",
     img: p_img_3,
-    year: 2023,
+    year: 2025,
     link: "/portfolio-details-4"
   },
   {
