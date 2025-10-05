@@ -34,9 +34,9 @@ const project_data = [
     id: 3,
     img_1: port_5,
     img_2: port_6,
-    meta: "Stage Communication",
-    title: "Gemeente Lille",
-    link: "/portfolio-details-3"
+    meta: "Brand Identity",
+    title: "Swyp",
+    link: "/portfolio-details-4"
 
   },
 ];
